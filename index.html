@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <title>NYT search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="assets/javascript.js"></script>
+</head>
+<body>
+  <div class="jumbotron col-lg-12">
+    <h1 class="display-4 fa fa-newspaper-o"> New York Times Search</h1>
+  </div>
+  <div class="container">
+      <div class="row col-lg-12">
+            <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Search Term: </label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Number of Records to Retrieve: </label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                        <option>20</option>
+                        <option>50</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Start Year (Optional): </label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">End Year (Optional): </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary">Clear Results</button>
+                  </form>
+      </div>
+  </div>
+</body>
+</html>
